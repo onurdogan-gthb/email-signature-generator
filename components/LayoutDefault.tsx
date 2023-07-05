@@ -14,7 +14,7 @@ function LayoutDefault() {
             </div>
             <div className='p-3'>
                 <div className='p-3'>
-                    <h1 className='text-3xl'>Name Surname</h1>
+                    <h1 className='text-3xl font-bold'>Name Surname</h1>
                     <h2 className='text-lg'>Profession</h2>
                 </div>
                 <hr></hr>
