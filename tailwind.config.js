@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         'nureply-blue': 'rgba(59,130,246,.5)',
+        'nureply-blue-full': 'rgb(59,130,246)',
       },
     },
   },
