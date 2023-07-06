@@ -145,7 +145,7 @@ export default function Home() {
 
   function LayoutDefault() {
     return (
-      <div className='flex m-9 bg-white rounded-full overflow-hidden'>
+      <div className='flex m-3 fixed bg-white rounded-full overflow-hidden'>
         <div className='border-2 rounded-full overflow-hidden m-9'>
           <Image
             src={photo}
@@ -204,13 +204,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='m-32'></div>
       </div>
     )
   }
 
   function LayoutFoursquare() {
     return (
-      <div className='flex m-9 mr-32 bg-white rounded-3xl overflow-hidden'>
+      <div className='flex m-9 mr-32 fixed bg-white rounded-3xl overflow-hidden'>
         <div className='p-10'>
           <div className='p-3'>
             <h1 className='text-3xl font-bold'>{name}</h1>
@@ -259,6 +260,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='mx-60'></div>
         <div className='border-2 rounded-3xl fixed overflow-hidden m-12 ml-96 float-right'>
           <Image
             src={photo}
